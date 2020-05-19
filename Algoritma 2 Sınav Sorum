@@ -1,1 +1,47 @@
+4 adet özelliği olan galeri otomasyonu
 
+1.özellik arabanın model yılı
+2.özellik expertiz durumu
+3.özellik arabanın fiyatı
+4.özellik arabanın cinsi 
+ aldıkları parametreler
+ 
+ 1.özellik arabanın model yılı
+ 
+ +aracın model yılı(int)  int
+ +şu andaki yıl(int) int
+ -aracın şu anki yaşı:int
+ 
+ 2.özellik expertiz durumu
+ 
+ +aracın değişen bilgisi(String)String
+ +aracın boya bilgisi(String)String
+ +aracın motor durumu bilgisi(String)String
+ +aracın airbagleri varmı(bolean)boolean
+ -aracın airbag bilgileri:String
+ +aracın sigorta kaydı(String)String
+ -arcın şase numarası kayıtları:String
+ +aracın muayene kayıtları(String)String
+ 
+ 3.özellik arabanın fiyatı
+ +aracın fiyatını hesaplama(int,double)Double
+ -aracın model yılı
+ -aracın expertiz durumu
+ 
+ 4.özellik arabanın cinsi
+ 
+ +arac tipini sec(int)String
+ -arac tip 1:String
+ sedan
+ -arac tip 2:String
+ coupe
+ -arac tip 3:String
+ cabrio
+ -arac tip 4:String
+ suv
+ -arac tip 5:String
+ hatchback
+ -arac tip 6:String
+ pick up
+ -arac tip 7:String
+ station wagon
